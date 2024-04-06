@@ -296,4 +296,4 @@ def index():
     return render_template('index.html', word=default_word, word_info=word_info, graph_html=graph_html, random_word=random_word)
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run()
